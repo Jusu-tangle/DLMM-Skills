@@ -1,0 +1,57 @@
+[
+  {
+    "inputs": [],
+    "name": "getActiveId",
+    "outputs": [
+      {"internalType": "uint24", "name": "activeId", "type": "uint24"}
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "address", "name": "owner", "type": "address"},
+      {"internalType": "uint256", "name": "id", "type": "uint256"}
+    ],
+    "name": "balanceOf",
+    "outputs": [
+      {"internalType": "uint256", "name": "balance", "type": "uint256"}
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "address[]", "name": "accounts", "type": "address[]"},
+      {"internalType": "uint256[]", "name": "ids", "type": "uint256[]"}
+    ],
+    "name": "balanceOfBatch",
+    "outputs": [
+      {"internalType": "uint256[]", "name": "balances", "type": "uint256[]"}
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "address", "name": "operator", "type": "address"},
+      {"internalType": "bool", "name": "approved", "type": "bool"}
+    ],
+    "name": "approveForAll",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "address", "name": "owner", "type": "address"},
+      {"internalType": "address", "name": "operator", "type": "address"}
+    ],
+    "name": "isApprovedForAll",
+    "outputs": [
+      {"internalType": "bool", "name": "approved", "type": "bool"}
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
